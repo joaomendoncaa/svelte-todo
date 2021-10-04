@@ -23,7 +23,7 @@
 
   <Form />
 
-  {#each todoList as { id, label, description }, i}
+  {#each todoList.sort() as { id, label, description }, i}
     <Item {id} {label} {description} />
   {/each}
 </main>

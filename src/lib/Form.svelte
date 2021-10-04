@@ -13,7 +13,7 @@
     data.update((currentData) => [
       ...currentData,
       {
-        id: $data.length,
+        id: $data.length == 0 ? 0 : $data.length,
         label,
         description,
       },

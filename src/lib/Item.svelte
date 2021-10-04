@@ -6,6 +6,7 @@
   import IoMdTrash from "svelte-icons/io/IoMdTrash.svelte";
   import IoMdEye from "svelte-icons/io/IoMdEye.svelte";
   import IoMdEyeOff from "svelte-icons/io/IoMdEyeOff.svelte";
+  import { fly } from "svelte/transition";
 
   import { data } from "../stores/data";
 
@@ -31,7 +32,7 @@
   }
 </script>
 
-<div class="item-container">
+<div class="item-container" transition:fly={{ y: 20, duration: 1000 }}>
   <div class="item-content">
     <div class="item-title">
       <h3>{label}</h3>
