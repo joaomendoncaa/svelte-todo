@@ -10,3 +10,5 @@
 - Would use again 11/10
 
 ![](https://c.tenor.com/XP6lGptE1CkAAAAM/thong-borat.gif)
+
+Demo of the progress made is this "testrun": [view demo](https://joaomendonca-svelte-todo.netlify.app/)
